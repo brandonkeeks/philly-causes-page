@@ -1,0 +1,37 @@
+body {
+    background-color: #CCC;
+    margin:80px 80px 100px 100px;
+}
+div#fixedheader {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    color:#CCC;
+    background:#51b6c8;
+    padding-top: 24px;
+    padding-bottom: 18px;
+}
+div#fixedfooter {
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    color:#CCC;
+    background:#214d55;
+    padding:8px;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+p {
+	text-align: center;
+	font-size: 12px;	
+}
+form {
+	text-align: center;
+	pad
+}
