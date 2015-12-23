@@ -8,8 +8,9 @@ div#fixedheader {
     left:0px;
     width:100%;
     color:#CCC;
-    background:#333;
-    padding:20px;
+    background:#51b6c8;
+    padding-top: 24px;
+    padding-bottom: 18px;
 }
 div#fixedfooter {
     position:fixed;
@@ -17,7 +18,7 @@ div#fixedfooter {
     left:0px;
     width:100%;
     color:#CCC;
-    background:#333;
+    background:#214d55;
     padding:8px;
 }
             
