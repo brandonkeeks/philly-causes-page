@@ -23,15 +23,15 @@ div#fixedheader {
 }
 
 #slider {
-    width:720px;
-    height: 400px;
+    width:1170px;
+    height: 500px;
     overflow: hidden;
 
 }
 
-#slider .sliders {
+#slider .slides {
     display: block;
-    width: 6000px;
+    width: 7000px;
     height: 400px;
     margin:0;
     padding: 0;
@@ -41,10 +41,16 @@ div#fixedheader {
 #slider .slide {
     float: left;
     list-style-type: none;
-    width: 720px;
-    height: 400px;
+    width: 1170px;
+    height: 500px;
 
 }
+.slide1 {background: red;}
+.slide2 {background: blue;}
+.slide3 {background: green;}
+.slide4 {background: purple;}
+.slide5 {background: pink;}
+
 
 div#fixedfooter {
     position:fixed;
