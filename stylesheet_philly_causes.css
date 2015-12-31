@@ -1,5 +1,6 @@
 body {
     background-color: #CCC;
+    padding-top:60px;
     margin:80px 80px 100px 100px;
 }
 div#fixedheader {
@@ -8,10 +9,49 @@ div#fixedheader {
     left:0px;
     width:100%;
     color:#CCC;
-    background:#51b6c8;
+    background:#e9e2bb;
     padding-top: 24px;
     padding-bottom: 18px;
 }
+#logo {
+    margin-top:0px;
+    padding-left: 15px;
+    height: 100px;
+    width: 225px;
+
+    
+}
+
+#slider {
+    width:1170px;
+    height: 500px;
+    overflow: hidden;
+
+}
+
+#slider .slides {
+    display: block;
+    width: 7000px;
+    height: 400px;
+    margin:0;
+    padding: 0;
+
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 1170px;
+    height: 500px;
+
+}
+.slide1 {background: red;}
+.slide2 {background: blue;}
+.slide3 {background: green;}
+.slide4 {background: purple;}
+.slide5 {background: pink;}
+
+
 div#fixedfooter {
     position:fixed;
     bottom:0px;
@@ -21,4 +61,4 @@ div#fixedfooter {
     background:#214d55;
     padding:8px;
 }
-            
+        
