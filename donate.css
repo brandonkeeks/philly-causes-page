@@ -1,0 +1,64 @@
+body {
+    background-color: #CCC;
+    margin:80px 80px 100px 100px;
+}
+div#fixedheader {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    color:#CCC;
+    background:#51b6c8;
+    padding-top: 24px;
+    padding-bottom: 18px;
+}
+div#fixedfooter {
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    color:#CCC;
+    background:#214d55;
+    padding:8px;
+}
+#pagewrap {
+    padding: 5px;
+    width: 960px;
+    margin: 20px auto;
+}
+header {
+    height: 100px;
+    padding: 0 15px;
+}
+#content {
+    width: 290px;
+    float: left;
+    padding: 5px 15px;
+}
+
+#middle {
+    width: 294px; /* Account for margins + border values */
+    float: left;
+    padding: 5px 15px;
+    margin: 0px 5px 5px 5px;
+}
+
+#sidebar {
+    width: 270px;
+    padding: 5px 15px;
+    float: left;
+}
+footer {
+    clear: both;
+    padding: 0 15px;
+}
+p {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+  
