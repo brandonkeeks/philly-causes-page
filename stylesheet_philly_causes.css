@@ -2,7 +2,13 @@ body {
     background-color: #CCC;
     padding-top:60px;
     margin:80px 80px 100px 100px;
+    font-family: serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: ##333;
+    padding: 1em;
 }
+
 div#fixedheader {
     position:fixed;
     top:0px;
@@ -18,7 +24,6 @@ div#fixedheader {
     padding-left: 15px;
     height: 100px;
     width: 225px;
-
 
 }
 
@@ -51,6 +56,40 @@ div#fixedheader {
 .slide4 {background: purple;}
 .slide5 {background: pink;}
 
+article {
+    -webkit-column-width: 450px;
+    -moz-column-width: 450px;
+    column-width:450px;
+    text-align: justify;
+}
+.article {
+    margin-bottom: 1.3em;
+}
+
+h1, h2 , h3 , h4 {
+    margin:1.414em 0 0.5em;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h1 {
+    margin-top:0;
+    font-size:3.157em;
+    text-align: center;
+}
+
+h2 {
+    font-size:2.369em;
+}
+
+h3 {
+    font-size: 1.777em;
+}
+
+h4 {
+    font-size: 1.333em;
+}
+small, .font_small {font-size: 0.75em;}
 
 div#fixedfooter {
     position:fixed;
