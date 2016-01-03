@@ -1,17 +1,96 @@
 body {
     background-color: #CCC;
+    padding-top:60px;
     margin:80px 80px 100px 100px;
+    font-family: serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: ##333;
+    padding: 1em;
 }
+
 div#fixedheader {
     position:fixed;
     top:0px;
     left:0px;
     width:100%;
     color:#CCC;
-    background:#51b6c8;
+    background:#e9e2bb;
     padding-top: 24px;
     padding-bottom: 18px;
 }
+#logo {
+    margin-top:0px;
+    padding-left: 15px;
+    height: 100px;
+    width: 225px;
+
+}
+
+#slider {
+    width:1170px;
+    height: 500px;
+    overflow: hidden;
+
+}
+
+#slider .slides {
+    display: block;
+    width: 7000px;
+    height: 400px;
+    margin:0;
+    padding: 0;
+
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 1170px;
+    height: 500px;
+
+}
+.slide1 {background: red;}
+.slide2 {background: blue;}
+.slide3 {background: green;}
+.slide4 {background: purple;}
+.slide5 {background: pink;}
+
+article {
+    -webkit-column-width: 450px;
+    -moz-column-width: 450px;
+    column-width:450px;
+    text-align: justify;
+}
+.article {
+    margin-bottom: 1.3em;
+}
+
+h1, h2 , h3 , h4 {
+    margin:1.414em 0 0.5em;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h1 {
+    margin-top:0;
+    font-size:3.157em;
+    text-align: center;
+}
+
+h2 {
+    font-size:2.369em;
+}
+
+h3 {
+    font-size: 1.777em;
+}
+
+h4 {
+    font-size: 1.333em;
+}
+small, .font_small {font-size: 0.75em;}
+
 div#fixedfooter {
     position:fixed;
     bottom:0px;
@@ -21,4 +100,8 @@ div#fixedfooter {
     background:#214d55;
     padding:8px;
 }
+<<<<<<< HEAD
   
+=======
+        
+>>>>>>> e975f1391eb2618c0e46b7b71a79ba7b9cf00277
