@@ -1,5 +1,7 @@
 body {
+    
     background-color: #CCC;
+    background-image: url("images/Hope2.jpg");
     padding-top:60px;
     margin:80px 80px 100px 100px;
     font-family: serif;
@@ -10,12 +12,14 @@ body {
 }
 
 div#fixedheader {
+    
     position:fixed;
     top:0px;
     left:0px;
     width:100%;
     color:#CCC;
     background:#e9e2bb;
+    background-image: url("images/header.gif");
     padding-top: 24px;
     padding-bottom: 18px;
 }
@@ -100,8 +104,110 @@ div#fixedfooter {
     background:#214d55;
     padding:8px;
 }
-<<<<<<< HEAD
-  
-=======
-        
->>>>>>> e975f1391eb2618c0e46b7b71a79ba7b9cf00277
+nav {
+    background-image: ;
+    width: 100%;
+    padding-left: 100px;
+    margin: 20px 0;
+    }
+
+nav ul {
+
+    list-style: none;
+
+    overflow: hidden; }
+
+nav ul li {
+
+    float: left;
+
+    width: 20%; }
+
+nav ul li a {
+
+    text-align: center;
+
+    padding: 8px 0;
+
+    display: block;
+
+    width: 100%;
+
+    background-image: url("images/navbar.png");
+
+}
+
+nav ul li a,
+
+nav ul li a:focus,
+
+nav ul li a:visited,
+
+nav ul li a:hover,
+
+nav ul li a:active {
+
+    color: #000;
+
+    text-decoration: none; }
+
+nav ul li a:hover,
+
+nav ul li a:active {
+
+    background: #b0ca34;
+
+
+
+}
+
+nav ul li:first-child a {
+
+    border-top-left-radius: 8px;
+
+    border-bottom-left-radius: 8px; }
+
+nav ul li:last-child a {
+
+    border-top-right-radius: 8px;
+
+    border-bottom-right-radius: 8px; }
+
+
+
+}
+#container2 {
+    clear:left;
+    float:left;
+    width:100%;
+    overflow:hidden;
+    background:transparent; /* column 2 background colour */
+    padding-bottom: 105px;
+}
+#container1 {
+    float:left;
+    width:100%;
+    position:relative;
+    right:50%;
+    background: transparent; /* column 1 background colour */
+    padding-bottom: 55px;
+}
+#col1 {
+    float:left;
+    width:46%;
+    position:relative;
+    left:52%;
+    overflow:hidden;
+    padding-bottom: 50px;
+}
+#col2 {
+    float:left;
+    width:46%;
+    position:relative;
+    left:56%;
+    overflow:hidden;
+    padding-bottom: 55px;
+}
+.Home-h2{
+    text-align: center;
+ }
