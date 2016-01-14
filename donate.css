@@ -19,8 +19,8 @@ div#fixedheader {
     color:#CCC;
     background:#e9e2bb;
     background-image: url("images/header.gif");
-    padding-top: 24px;
-    padding-bottom: 18px;
+    padding-top: 5px;
+    padding-bottom: -5px;
 }
 div#fixedfooter {
     position:fixed;
