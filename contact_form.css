@@ -8,9 +8,12 @@ div#fixedheader {
     left:0px;
     width:100%;
     color:#CCC;
-    background:#51b6c8;
-    padding-top: 24px;
-    padding-bottom: 18px;
+    background:#e9e2bb;
+    background-image: url("images/header.gif");
+    padding-top: 5px;
+}
+#contact-header{
+    padding-top: 200px;
 }
 div#fixedfooter {
     position:fixed;
@@ -21,17 +24,113 @@ div#fixedfooter {
     background:#214d55;
     padding:8px;
 }
-h1 {
-    text-align: center;
-    text-decoration: underline;
-    font-size: 50px;
+#logo {
+    margin-top:0px;
+    padding-left: 15px;
+    height: 100px;
+    width: 225px;
+
 }
 
-p {
-	text-align: center;
-	font-size: 12px;	
+#pagewrap {
+    padding: 5px;
+    width: 960px;
+    margin: 20px auto;
 }
-form {
-	text-align: center;
-	pad
+
+#content {
+    width: 290px;
+    float: left;
+    padding: 5px 15px;
+}
+
+#middle {
+    width: 294px; /* Account for margins + border values */
+    float: left;
+    padding: 5px 15px;
+    margin: 0px 5px 5px 5px;
+}
+
+#sidebar {
+    width: 270px;
+    padding: 5px 15px;
+    float: left;
+}
+
+div#fixedfooter {
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    color:#CCC;
+    background:#214d55;
+    padding:8px;
+}
+p {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+aside {
+    text-align: center;
+}
+
+nav {
+    background-image: ;
+    width: 100%;
+    padding-left: 100px;
+    margin: 20px 0;
+}
+
+nav ul {
+
+    list-style: none;
+
+    overflow: hidden; 
+}
+
+nav ul li {
+
+    float: left;
+
+    width: 20%; 
+}
+
+nav ul li a {
+
+    text-align: center;
+
+    padding: 8px 0;
+
+    display: block;
+
+    width: 100%;
+
+    background-image: url("images/navbar.png");
+
+}
+
+nav ul li a,
+
+nav ul li a:focus,
+
+nav ul li a:visited,
+
+nav ul li a:hover,
+
+nav ul li a:active {
+
+    color: #000;
+
+    text-decoration: none; }
+
+nav ul li a:hover,
+
+nav ul li a:active {
+
+    background: #b0ca34;
 }
