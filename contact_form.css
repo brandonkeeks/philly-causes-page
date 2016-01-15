@@ -12,7 +12,6 @@ body {
     background-image: url("images/header.gif");
     padding-top: 5px;
 }
-<<<<<<< HEAD
 #contact-header{
     padding-top: 200px;
 }
@@ -59,9 +58,6 @@ div#fixedfooter {
 }
 
 div#fixedfooter {
-=======
-#fixedfooter {
->>>>>>> 62a635f1200a5315436f3c51736b05de92191d7a
     position:fixed;
     bottom:0px;
     left:0px;
@@ -72,22 +68,27 @@ div#fixedfooter {
 }
 p {
     text-align: center;
+    padding:5px;
 }
 h2 {
     text-align: center;
 }
 h1 {
     text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
 }
 aside {
     text-align: center;
 }
 
 nav {
-    background-image: ;
+
     width: 100%;
     padding-left: 100px;
     margin: 20px 0;
+
 }
 
 nav ul {
@@ -117,7 +118,6 @@ nav ul li a {
     background-image: url("images/navbar.png");
 
 }
-<<<<<<< HEAD
 
 nav ul li a,
 
@@ -138,9 +138,4 @@ nav ul li a:hover,
 nav ul li a:active {
 
     background: #b0ca34;
-=======
-form {
-	text-align: center;
-
->>>>>>> 62a635f1200a5315436f3c51736b05de92191d7a
 }
