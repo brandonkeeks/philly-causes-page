@@ -2,7 +2,7 @@ body {
     background-color: #CCC;
     margin:80px 80px 100px 100px;
 }
-div#fixedheader {
+#fixedheader {
     position:fixed;
     top:0px;
     left:0px;
@@ -12,6 +12,7 @@ div#fixedheader {
     background-image: url("images/header.gif");
     padding-top: 5px;
 }
+<<<<<<< HEAD
 #contact-header{
     padding-top: 200px;
 }
@@ -58,6 +59,9 @@ div#fixedfooter {
 }
 
 div#fixedfooter {
+=======
+#fixedfooter {
+>>>>>>> 62a635f1200a5315436f3c51736b05de92191d7a
     position:fixed;
     bottom:0px;
     left:0px;
@@ -113,6 +117,7 @@ nav ul li a {
     background-image: url("images/navbar.png");
 
 }
+<<<<<<< HEAD
 
 nav ul li a,
 
@@ -133,4 +138,9 @@ nav ul li a:hover,
 nav ul li a:active {
 
     background: #b0ca34;
+=======
+form {
+	text-align: center;
+
+>>>>>>> 62a635f1200a5315436f3c51736b05de92191d7a
 }

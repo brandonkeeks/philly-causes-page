@@ -7,11 +7,11 @@ body {
     font-family: serif;
     font-size: 16px;
     font-weight: 400;
-    color: ##333;
+    color: #333;
     padding: 1em;
 
 }
-div#fixedheader {
+#fixedheader {
     position:fixed;
     top:0px;
     left:0px;
@@ -19,18 +19,18 @@ div#fixedheader {
     color:#CCC;
     background:#e9e2bb;
     background-image: url("images/header.gif");
+<<<<<<< HEAD
     padding-top: 24px;
     padding-bottom: 12px;
+=======
+    padding-top: 5px;
+
+>>>>>>> 62a635f1200a5315436f3c51736b05de92191d7a
 }
-div#fixedfooter {
-    position:fixed;
-    bottom:0px;
-    left:0px;
-    width:100%;
-    color:#CCC;
-    background:#214d55;
-    padding:8px;
+#donate-header{
+    padding-top: 100px;
 }
+
 
 #logo {
     margin-top:0px;
@@ -65,7 +65,7 @@ div#fixedfooter {
     float: left;
 }
 
-div#fixedfooter {
+#fixedfooter {
     position:fixed;
     bottom:0px;
     left:0px;
@@ -88,10 +88,11 @@ aside {
 }
 
 nav {
-    background-image: ;
+
     width: 100%;
     padding-left: 100px;
     margin: 20px 0;
+
 }
 
 nav ul {

@@ -7,11 +7,11 @@ body {
     font-family: serif;
     font-size: 16px;
     font-weight: 400;
-    color: ##333;
+    color: #333;
     padding: 1em;
 }
 
-div#fixedheader {
+#fixedheader {
     
     position:fixed;
     top:0px;
@@ -20,8 +20,8 @@ div#fixedheader {
     color:#CCC;
     background:#e9e2bb;
     background-image: url("images/header.gif");
-    padding-top: 24px;
-    padding-bottom: 18px;
+    margin-bottom: 5px;
+    padding-top: 5px;
 }
 #logo {
     margin-top:0px;
@@ -32,8 +32,9 @@ div#fixedheader {
 }
 
 #slider {
+   padding-top: 100px;
     width:1170px;
-    height: 500px;
+    height: 400px;
     overflow: hidden;
 
 }
@@ -105,7 +106,7 @@ div#fixedfooter {
     padding:8px;
 }
 nav {
-    background-image: ;
+
     width: 100%;
     padding-left: 100px;
     margin: 20px 0;
@@ -175,7 +176,7 @@ nav ul li:last-child a {
 
 
 
-}
+
 #container2 {
     clear:left;
     float:left;
