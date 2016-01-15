@@ -1,3 +1,2 @@
-This is the first commit for the Philly Causes Page
+This Website was designed and developed as an information site to inform people about the Homeless Children of Philadelphia.
 
-new edit , AL
