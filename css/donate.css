@@ -33,8 +33,10 @@ body {
     width: 225px;
 
 }
-
-
+#donate-header{
+    margin-top: 100px;
+    font-weight: bold;
+}
 
 
 #pagewrap {
@@ -47,6 +49,7 @@ body {
     width: 290px;
     float: left;
     padding: 5px 15px;
+
 }
 
 #middle {
@@ -73,12 +76,14 @@ body {
 }
 p {
     text-align: center;
+    line-height: 25px;
 }
 h2 {
     text-align: center;
 }
 h1 {
     text-align: center;
+
 }
 aside {
     text-align: center;
@@ -163,7 +168,4 @@ nav ul li:last-child a {
 
     border-bottom-right-radius: 8px; }
 
-#donate-header{
-    margin-top: 100px;
-}
 
