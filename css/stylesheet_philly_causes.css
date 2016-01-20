@@ -10,6 +10,7 @@ body {
     font-weight: 400;
     color: #333;
     padding: 1em;
+    line-height:25px;
 }
 
 #fixedheader {
@@ -19,9 +20,7 @@ body {
     left:0px;
     width:100%;
     color:#CCC;
-    /*background:#e9e2bb;*/
     background: whitesmoke;
-
     margin-bottom: 5px;
     padding-top: 5px;
 }
@@ -232,5 +231,57 @@ nav ul li:last-child a {
 }
 
 #main-h {
+    text-align: center;
+}
+
+
+
+.image-content {
+    margin-top: 100px;
+    margin-left: 375px;
+    width:800px;
+    line-height:25px;
+
+}
+
+#child {
+    float:left;
+    padding-top: 100px;
+    width: 350px;
+    height: 350px;
+}
+
+#contact-header{
+    padding-top: 100px;
+}
+#pagewrap {
+    padding: 5px;
+    width: 960px;
+    margin: 20px auto;
+}
+
+#content {
+    width: 290px;
+    float: left;
+    padding: 5px 15px;
+}
+
+#middle {
+    width: 294px; /* Account for margins + border values */
+    float: left;
+    padding: 5px 15px;
+    margin: 0px 5px 5px 5px;
+}
+
+#sidebar {
+    width: 270px;
+    padding: 5px 15px;
+    float: left;
+}
+#donate-header{
+    margin-top: 100px;
+    font-weight: bold;
+}
+.contact1{
     text-align: center;
 }
