@@ -1,0 +1,291 @@
+body {
+    
+    background-color: #CCC;
+    background-image: url("../images/fl.jpg");
+    background-size: cover;
+    padding-top:80px;
+    margin:80px 80px 100px 100px;
+    font-family:'Droid Sans', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    padding: 1em;
+    line-height:25px;
+}
+
+#fixedheader {
+
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    color:#CCC;
+    background: whitesmoke;
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+#logo {
+    float: left;
+    margin-top:0px;
+    padding-left: 15px;
+    height: 100px;
+    width: 225px;
+
+}
+
+#slider {
+   padding-top: 75px;
+    width:1170px;
+    height: 400px;
+    overflow: hidden;
+
+}
+
+#slider .slides {
+    display: block;
+    width: 7000px;
+    height: 400px;
+    margin:0;
+    padding: 0;
+
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 1170px;
+    height: 500px;
+
+}
+.slide1 {background: red;}
+.slide2 {background: blue;}
+.slide3 {background: green;}
+.slide4 {background: purple;}
+.slide5 {background: pink;}
+
+article {
+    -webkit-column-width: 450px;
+    -moz-column-width: 450px;
+    column-width:450px;
+    text-align: justify;
+}
+.article {
+    margin-bottom: 1.3em;
+}
+
+h1, h2 , h3 , h4 {
+    margin:1.414em 0 0.5em;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h1 {
+    margin-top:0;
+    font-size:3.157em;
+    text-align: center;
+}
+
+h2 {
+    font-size:2.369em;
+}
+
+h3 {
+    font-size: 1.777em;
+}
+
+h4 {
+    font-size: 1.333em;
+}
+small, .font_small {font-size: 0.75em;}
+
+div#fixedfooter {
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    color:#CCC;
+    background:#214d55;
+    padding:8px;
+}
+nav {
+
+    /*width: 100%;*/
+    padding-top:50px;
+    padding-left:250px;
+
+    margin: 20px 0;
+
+    }
+
+nav ul {
+
+    list-style: none;
+
+    overflow: hidden;
+
+}
+
+nav ul li {
+
+    float: left;
+
+    width: 20%;
+
+}
+
+nav ul li a {
+
+    text-align: center;
+
+    padding: 8px 0;
+
+    display: block;
+
+    width: 100%;
+
+    background: #0080A5;
+
+
+
+}
+
+nav ul li a,
+
+nav ul li a:focus,
+
+nav ul li a:visited,
+
+nav ul li a:hover,
+
+nav ul li a:active {
+
+    color: white;
+
+    text-decoration: none; }
+
+nav ul li a:hover,
+
+nav ul li a:active {
+
+    background: #b0ca34;
+
+
+
+
+}
+
+nav ul li:first-child a {
+
+    border-top-left-radius: 8px;
+
+    border-bottom-left-radius: 8px; }
+
+nav ul li:last-child a {
+
+    border-top-right-radius: 8px;
+
+    border-bottom-right-radius: 8px;
+}
+
+
+
+
+#container2 {
+    clear:left;
+    float:left;
+    width:100%;
+    overflow:hidden;
+    background:transparent; /* column 2 background colour */
+    padding-bottom: 105px;
+}
+#container1 {
+    float:left;
+    width:100%;
+    position:relative;
+    right:50%;
+    background: transparent; /* column 1 background colour */
+    padding-bottom: 55px;
+}
+#col1 {
+    float:left;
+    width:46%;
+    position:relative;
+    left:52%;
+    overflow:hidden;
+    padding-bottom: 50px;
+}
+#col2 {
+    float:left;
+    width:46%;
+    position:relative;
+    left:56%;
+    overflow:hidden;
+    padding-bottom: 55px;
+}
+.Home-h2{
+    text-align: center;
+ }
+
+.content{
+    line-height:25px;
+}
+
+#main-h {
+    text-align: center;
+}
+
+
+
+.image-content {
+    margin-top: 100px;
+    margin-left: 375px;
+    width:800px;
+    line-height:25px;
+
+}
+
+#child {
+    float:left;
+    padding-top: 100px;
+    width: 350px;
+    height: 350px;
+}
+
+#contact-header{
+    padding-top: 100px;
+}
+#pagewrap {
+    padding: 5px;
+    width: 960px;
+    margin: 20px auto;
+}
+
+#content {
+    width: 290px;
+    float: left;
+    padding: 5px 15px;
+}
+
+#middle {
+    width: 294px; /* Account for margins + border values */
+    float: left;
+    padding: 5px 15px;
+    margin: 0px 5px 5px 5px;
+}
+
+#sidebar {
+    width: 270px;
+    padding: 5px 15px;
+    float: left;
+}
+#donate-header{
+    margin-top: 100px;
+    font-weight: bold;
+}
+.contact1{
+    text-align: center;
+}
+
+#donate-content{
+    padding-left:150px;
+}
